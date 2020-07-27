@@ -1,0 +1,50 @@
+Agenomo (pratos fritos)
+
+1 - Karaage | Preço: 25,5
+2 - Korokke | Preço: 25,5
+3 - Kushiage | Preço: 25,5
+4 - Tempura | Preço: 25,5
+5 - Tonkatsu | Preço: 41,6
+6 - Donburi | Preço: 45
+7 - Oyakodon | Preço: 42,2
+8 - Gyudon | Preço: 50
+
+Yakimono (pratos grelhados)
+
+9 - Gyoza | Preço: 30,25
+10 - Kushiyaki | Preço: 30,25
+11 - Okonomiyaki | Preço: 60
+12 - Omu-raisu | Preço: 50,25
+13 - Omu-soba | Preço: 50,25
+14 - Takoyaki | Preço: 55
+15 - Teriyaki | Preço: 35,5
+16 - Unagi | Preço: 65
+17 - Yakiniku | Preço: 65
+18 - Yakisoba | Preço: 38,9
+19 - Yakitori | Preço: 25,5
+
+Nabemono (pratos cozidos)
+
+20 - Sukiyaki | Preço: 70
+21 - Shabu-shabu | Preço: 70
+22 - Motsunabe | Preço: 70
+23 - Nikujaga | Preço: 70
+
+Sashimi (carne ou peixe cru)
+
+24 - Fugu | Preço: 80
+25 - Ikizukuri | Preço: 30,25
+26 - Tataki | Preço: 30,25
+27 - Basashi | Preço: 40,5
+28 - Rebasashi | Preço: 40,5
+29 - Shikasashi | Preço: 38,5
+
+Sushi (bolinhos de arroz temperado)
+
+30 - Chirashizushi | Preço: 25,5
+31 - Inarizushi | Preço: 25,5
+32 - Makizushi | Preço: 25,5
+33 - Nigirizushi | Preço: 25,5
+34 - Oshizushi | Preço: 25,5
+35 - Narezushi | Preço: 25,5
+36 - Temakizushi | Preço: 25,5

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- LINK_GOOGLE_FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=PT+Sans&display=swap" rel="stylesheet">
+
+        <!-- LINK_BOOTSTRAP -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        
+        <!-- LINK_DO_MEU_CSS_PRINCIPAL -->
+        <link rel="stylesheet" href="../stylee.css">
+
+        <!-- LINK_DO_CSS_SECUNDÁRIO -->
+        <link rel="stylesheet" href="../style.css">
+
+        <title>Come Sushi - Login</title>
+    </head>
+    <body>
+
+        <!-- LOGO NA COR PRETA -->
+        <a href="../index.html">
+            <img class="d-block Come_Sushi" src="./ComeSushi_logo.png" alt="Logo Come Sushi">
+        </a>
+
+        <h4 class="Oswald preto text-center">Uma experiência incrivel te espera!</h4>
+
+        <form class="box" action="#">
+
+            <!-- INPUT:NOME -->
+            <div class="d-flex flex-column align-items-center">
+                <div class="d-flex flex-column align-items-start caixa-forms">
+                    <label for=""><h2 class="sub-titulo preto">Nome: </h2></label>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column align-items-center">
+                <input type="text" placeholder="Nome" id="login">
+            </div>
+
+            <!-- INPUT:SENHA -->
+            <div class="d-flex flex-column align-items-center">
+                <div class="d-flex flex-column align-items-start caixa-forms">
+                    <label for=""><h2 class="sub-titulo preto">Senha: </h2></label>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column align-items-center">
+                <input type="password" placeholder="Senha" id="SENHA">
+            </div>
+
+            <a href="./erro.html"><h1 class="Oswald Min-tam preto text-center inscrever">Quero me inscrever!</h1></a>
+
+            <div class="d-flex flex-column align-items-center">
+                <div class="d-flex flex-column align-items-end caixa-forms">
+                    <input class="sub-titulo b-amarelo" type="submit" value="Entrar" id="botao">
+                </div>
+            </div>
+
+        </form>
+        
+        <script src="../script.js"></script>
+    </body>
+</html>

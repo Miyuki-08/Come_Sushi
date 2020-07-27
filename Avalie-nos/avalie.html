@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- LINK_MATERIAL_ICONS -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+
+        <!-- LINK_GOOGLE_FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=PT+Sans&display=swap" rel="stylesheet">
+
+        <!-- LINK_BOOTSTRAP -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        
+        <!-- LINK_DO_MEU_CSS_PRINCIPAL -->
+        <link rel="stylesheet" href="../stylee.css">
+
+        <!-- LINK_DO_CSS_SECUNDÁRIO -->
+        <link rel="stylesheet" href="../style.css">
+
+        <title>Come Sushi - Avalie</title>
+    </head>
+    <body>
+
+        <!-- IMAGEM DE FUNDO E SEU FILTRO -->
+        <div class="avalie img-fundo">
+            <div class="filtro alinhar-vertical">
+        
+                <!-- LOGO_CAME_SUSHI -->
+                <a href="../index.html">
+                    <img class="d-block Come_Sushi" src="../ComeSushi_logo_br.png" alt="Logo Come Sushi">
+                </a>
+
+                <!-- INICIO DA NAV_BAR -->
+                <nav>
+
+                    <!-- NAVEGAÇÃO ACESSIBILIDADE -->
+                    <div class="nav-hov">
+                        <ul>
+                            <li><a class="Min-tam Oswald preto" href="#conteudo" class="amarelo">Ir para o conteúdo</a></li>
+                            <li><a class="Min-tam Oswald preto" href="#menu" class="amarelo">Ir para o menu</a></li>
+                        </ul>
+                    </div>
+
+                    <ul class="fundo-nav d-flex">
+
+                        <!-- RETANGULO CORTADO AO LADO DO NAV -->
+                        <li class="quadrado b-amarelo"></li>
+                        <li class="corte-nav amarelo"></li>
+                        
+                        <!-- ICONE_ACESSIBLIDADE -->
+                        <li class=" m-auto">
+                            <span class="material-icons amarelo Min-tam">
+                                accessibility_new
+                            </span>
+                        </li>
+                        
+                        <!-- MENU DO SITE -->
+                        <li class=" m-auto"><a class="amarelo Min-tam" href="../Sobre/sobre.html"> Sobre nós </a></li>
+                        <li class=" m-auto"><a class="amarelo Min-tam" href="../Contato/contato.html"> Contato </a></li>
+                        <li class=" m-auto"><a class="amarelo Min-tam" href="../Avalie-nos/avalie.html"> Avalie-nos </a></li>
+                        <li class=" m-auto"><a class="amarelo Min-tam" href="../Login/login.html"> Login </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <!-- TITULO DO FORMS -->
+        <h1 class="titulos preto text-center m-inicio">Avalie-nos</h1>
+
+        <!-- INÍCIO DO FORMULÁRIO -->
+        <form class="box" >
+
+            <!-- INPUT:NOME -->
+            <div class="d-flex flex-column align-items-center">
+                <div class="d-flex flex-column align-items-start caixa-forms">
+                    <label for=""><h2 class="sub-titulo preto">Nome: </h2></label>
+                </div>
+            </div>
+            
+            <div class="d-flex flex-column align-items-center">
+                <input type="text" placeholder="Nome">
+            </div>
+
+            <!-- INPUT:EMAIL -->
+            <div class="d-flex flex-column align-items-center">
+                <div class="d-flex flex-column align-items-start caixa-forms">
+                    <label for=""><h2 class="sub-titulo preto">Email: </h2></label>
+                </div>
+            </div>
+            
+            <div class="d-flex flex-column align-items-center">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <!-- ESTRELAS / NOTA -->
+            <div class="d-flex flex-column align-items-center">
+                <div class="d-flex flex-column align-items-start caixa-forms">
+                    <label for=""><h2 class="sub-titulo preto">Nota: </h2></label>
+                </div>
+            </div>
+            
+            <div class="rating d-flex flex-column align-items-center">
+               <span>
+                   <input type="radio" value="5" name="Estrela" id="Estrela5">
+                   <label for="Estrela5"></label>
+                   <input type="radio" value="4" name="Estrela" id="Estrela4">
+                   <label for="Estrela4"></label>
+                   <input type="radio" value="3" name="Estrela" id="Estrela3">
+                   <label for="Estrela3"></label>
+                   <input type="radio" value="2" name="Estrela" id="Estrela2">
+                   <label for="Estrela2"></label>
+                   <input type="radio" value="1" name="Estrela" id="Estrela1">
+                   <label for="Estrela1"></label>
+               </span>
+            </div>
+
+            <!-- INPUT:MENSAGEM -->
+            <div class="d-flex flex-column align-items-center">
+                <div class="d-flex flex-column align-items-start caixa-forms">
+                    <label for=""><h2 class="sub-titulo preto">Mensagem: </h2></label>
+                </div>
+            </div>
+            
+            <div class="d-flex flex-column align-items-center">
+                <textarea name="" id="" cols="30" rows="7"></textarea>
+            </div>
+
+            <!-- BOTÃO DO FORMS -->
+            <div class="d-flex flex-column align-items-center">
+                <div class="d-flex flex-column align-items-end caixa-forms">
+                    <input class="sub-titulo b-amarelo" type="submit" value="Enviar">
+                </div>
+            </div>
+
+        </form>
+
+        <!-- CONTARIOS -->
+        <section class="Comentario">
+            <h2 class="titulos preto text-center m-inicio">Comentários</h2>
+
+            <!-- COMENTÁRIO 1  -->
+            <div class="d-block m-auto comen-div">
+                <div class="d-flex">
+                    <div>
+                        <img class="comen-img" src="./Fulano.jpg" alt="Imagem de um moço em um fundo verde">
+                    </div>
+    
+                    <div class="comen">
+                        <div class="d-flex justify-content-around align-items-center">
+                            <span class="Oswald Min-tam">Fulano</span>
+                            <span class="amarelo">&starf; &starf; &starf;</span>
+                        </div>
+    
+                        <p class="Oswald Min-tam">Nossa experiência com o restaurante foi incrível, recomendo!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- COMENTÁRIO 2 -->
+            <div class="d-block m-auto comen-div">
+                <div class="d-flex">
+                    <div>
+                        <img class="comen-img" src="./Fulano.jpg" alt="Imagem de um moço em um fundo verde">
+                    </div>
+    
+                    <div class="comen">
+                        <div class="d-flex justify-content-around align-items-center">
+                            <span class="Oswald Min-tam">Fulano</span>
+                            <span class="amarelo">&starf; &starf; &starf; &starf;</span>
+                        </div>
+    
+                        <p class="Oswald Min-tam">Nossa experiência com o restaurante foi incrível, recomendo!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="m-auto">
+                <a href="../Login/erro.html">
+                    <p class="comen-p text preto">Veja mais comentários</p>
+                </a>
+            </div>
+
+        </section>
+
+        <!-- RODAPÉ -->
+        <footer>
+
+            <!-- PRIMEIRA LINHA DO RODAPÉ -->
+            <div class="d-flex justify-content-center footer-div b-preto">
+                <div class="d-flex">
+                    <span class="material-icons amarelo">
+                        room
+                    </span>
+                    <p class="footer-text amarelo">
+                        R. Pamplona, 1704  
+                        Jardim Paulista, SP 
+                    </p>
+                </div>
+                <div class="d-flex">
+                    <span class="material-icons amarelo">
+                        call
+                    </span>
+                    <span class="amarelo">
+                        (11) 99999-9999
+                    </span>
+                </div>
+            </div>
+
+            <!-- SEGUNDA LINHA DO RODAPÉ -->
+            <div class="d-flex justify-content-center align-items-center b-preto">
+                <span class="material-icons amarelo copyright">
+                    copyright
+                </span>
+                <span class="amarelo copyright-res">
+                    Restaurante Come Sushi - Todos os direitos reservados
+                </span>
+            </div>
+        </footer>
+    </body>
+</html>

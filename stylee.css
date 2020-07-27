@@ -1,0 +1,138 @@
+/* RETIRAR PADRÕES DE ESTILO */
+*, label, h2, h3, figure, p{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+button, input {
+    border: 0 none;
+}
+
+/* CORES PRINCIPAIS DO SITE */
+.preto{
+    color:#23231A;
+}
+
+.amarelo, 
+/* Aplica na estrela do forms quando você passar o mouse */
+.rating span label:hover, 
+/* e todas as estrelas depois */
+.rating span label:hover ~ label, 
+/* Aplica na estrela do forms quando você clicar o mouse */
+.rating span input:checked, 
+/* e todas as estrelas depois */
+.rating span input:checked ~ label,
+/* Aplica no quadrado do cardápio quando passar o mouse */
+.qua a:hover,
+/* E todos os quadrados anteriores  */
+.qua:last-child:hover > a:nth-child(2){
+    color: #E3B409;
+}
+
+.b-amarelo{
+    background-color: #E3B409;
+}
+.b-preto{
+    background-color: #23231A;
+}
+
+/* PADRÕES PRINCIPAIS DO SITE */
+.titulos{
+    font-size: 10vmin;
+    font-family: 'Oswald', sans-serif;
+}
+.sub-titulo{
+    font-size: 6vmin;
+    font-family: 'Oswald', sans-serif;
+}
+.text{
+    margin:auto;
+    width: 70vw;
+    padding: 1vw;
+    font-size: 5vmin;
+    font-family: 'PT Sans', sans-serif;
+}
+.text-footer{
+    font-size: 3.5vmin;
+    font-family: 'Oswald', sans-serif;
+}
+.img-fundo{
+    background-position: center;
+    background-size: cover;
+    height: 55vmin;
+}
+.Oswald{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* TAMANHO MÍNIMO EXIGIDO POR UX (16PX)*/
+.Min-tam{
+    font-size: 5vmin;
+}
+
+/* PADRÕES SUB_PRINCIPAIS DO SITE */
+.m-inicio{
+    margin-top: 2rem;
+}
+.botao{
+    width: 50vmin;
+    margin: 2.5rem 0 0 0;
+}
+
+.filtro{
+    background-color: rgba(47, 46, 54, 0.8);
+    height: inherit;
+}
+.icon{
+    margin: 3vw;
+    font-size: 10vmin;
+}
+
+/* NAV_BAR */
+.Come_Sushi{
+    width: 65vmin;
+    margin:0 auto;
+    padding-top: 4vh;
+}
+.fundo-nav{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.quadrado{ 
+    display: block;
+    width: 2vw;
+}
+.corte-nav{
+    border-top: 5vh solid ;
+    border-right: 10px solid transparent;
+}
+.nav-hov{
+    position: absolute;
+    top: -50%;
+    width: 30vmin;
+    left: 10%;
+    background-color: #FDF8E8;
+}
+.icon-aces:hover, .nav-hov:hover, .icon-aces li:hover{
+    top: 0;
+}
+
+/* FOOTER */
+.footer-text{
+    width: 45vw;
+    margin: 0;
+}
+.copyright{
+    font-size: 1rem;
+}
+.copyright-res{
+    font-size: 10px;
+    padding: 0.7rem 0 0.7rem 0.3rem;
+}
+.footer-div{
+    padding-top: 1rem;
+}

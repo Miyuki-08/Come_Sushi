@@ -1,0 +1,173 @@
+/* IMAGEM DE FUNDO E SEU FILTRO  */
+
+/* HOME */
+.home{
+    background-image: url(./Home/Homee.jpg);
+}
+
+/* DELIVERY */
+.delivery{
+    background-image: url(./Delivery/delivery.jpg);
+}
+
+/* SOBRE */
+.sobre{
+    background-image: url(./Sobre/Sobre.jpg);
+}
+
+/* CONTATO */
+.contato{
+    background-image: url(./Contato/Contato.jpg);
+}
+
+/* AVALIE-NOS */
+.avalie{
+    background-image: url(./Avalie-nos/Avalie-nos.jpg);
+}
+
+/* PARA IMAGENS E GIFS */
+
+.div-gif-img{
+    width: 55vmax;
+    padding: 8vh 0;
+    margin-right: 0;
+}
+
+.gif-img{
+    width:inherit;
+    border: 3px solid;
+}
+
+/* LOGOS: IFOOD, RAPPI E UBER EATS */
+.logo{
+    width: 20vmin;
+    margin: 0.5rem 5vw 0.3rem;
+}
+
+/* FORMS */
+.box input[type = "email"], .box input[type = "text"], .box input[type = "password"], .box textarea{
+    width: 75vmin;
+    height: 7vh;
+    background-color: #FDF8E8;
+    font-family: 'Oswald', sans-serif;
+    color: #23231A;
+    border: 2px solid #23231A;
+}
+.box input[value = "Enviar"], .box input[value = "Entrar"] {
+    width: 25vmin;
+    margin: 1rem 0;
+}
+.caixa-forms{
+    width: 75vmin;
+}
+.box label h2{
+    margin: 1rem 0;
+}
+.box textarea{
+    height: 21vmin;
+}
+/* ESTRELAS */
+.rating {
+    direction: rtl;
+}
+.rating input {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+.rating label:before {
+    content: '\1F7CA';
+}
+.rating label {  
+    font-size: 12vmin;
+    color: #23231A;
+    margin-right: calc(5vw/3.5);
+}
+/* CARROSSEL */
+.carro{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.carro:target{
+    display: block;
+}
+.qua{
+    width: 35vmin;
+}
+#Sashimium, #Nabemonoum, #Yakimonoum, #Agemonoum{
+    display: block;
+}
+
+/* COMENTÁRIOS DO AVALIE-NOS */
+.comen-img{
+    width: 20vmin;
+    border-radius: 50%;
+    margin-bottom: 2vh;
+}
+.Comentario div, .contatos{
+    width: 80vmin;
+}
+.Comentario div div{
+    width: 60vmin;
+}
+.comen{
+    margin-left: 2vw;
+    padding-top: 1vh;
+    background-color: #FDF8E8;
+    border: 2px solid #23231A;
+}
+.comen p{
+    margin-left: 7vw;
+}
+.comen-div{
+    padding-top: 4vw;
+}
+.comen-p{
+    margin-top: 10vh;
+    text-align: center;
+    width: 50vmin;
+    padding-bottom: 10vh;
+}
+/* EXCESSÕES */
+h3{
+    font-size: 9vmin;
+    margin-bottom: 5vmin;
+}
+h4{
+    font-size: 8vmin;
+}
+h5, .cardapio{
+    width: 55vmax;
+}
+.cardapio img{
+    width: 20vmin;
+    margin: 4vh 0;
+}
+/* home-imgs */
+.line{
+    width: 2vmin;
+    height: 3rem;
+    margin: 0 2.3rem;
+}
+.quad{
+    width: 35vmin;
+    border: 3px solid;
+    margin: 4vh 0;
+}
+.quad:last-child{
+    margin-left: 3vw;
+}
+.quad:first-child{
+    margin-right: 3vw;
+}
+/* login */
+.inscrever{
+    margin-top: 1vh;
+}
+
+@media only screen and (min-width: 760px){
+    .text{
+        text-align: center;
+    }
+}

@@ -1,0 +1,81 @@
+Agenomo (pratos fritos)
+
+1 - Karaage
+
+2 - Korokke
+
+3 - Kushiage
+
+4 - Tempura
+
+5 - Tonkatsu
+
+6 - Donburi
+
+7 - Oyakodon
+
+8 - Gyudon
+
+Yakimono (pratos grelhados)
+
+9 - Gyoza
+
+10 - Kushiyaki
+
+11 - Okonomiyaki
+
+12 - Omu-raisu
+
+13 - Omu-soba
+
+14 - Takoyaki
+
+15 - Teriyaki
+
+16 - Unagi
+
+17 - Yakiniku
+
+18 - Yakisoba
+
+19 - Yakitori
+
+Nabemono (pratos cozidos)
+
+20 - Sukiyaki
+
+21 - Shabu-shabu
+
+22 - Motsunabe
+
+23 - Nikujaga
+
+Sashimi (carne ou peixe cru)
+
+24 - Fugu
+
+25 - Ikizukuri
+
+26 - Tataki
+
+27 - Basashi
+
+28 - Rebasashi
+
+29 - Shikasashi
+
+Sushi (bolinhos de arroz temperado)
+
+30 - Chirashizushi
+
+31 - Inarizushi
+
+32 - Makizushi
+
+33 - Nigirizushi
+
+34 - Oshizushi
+
+35 - Narezushi
+
+36 - Temakizushi
